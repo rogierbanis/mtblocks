@@ -1,5 +1,5 @@
 # MikroTik RouterOS Blocked IP List
-# Generated: 2026-06-30T16:00:44.076Z
+# Generated: 2026-06-30T22:00:44.065Z
 # Total IPs: 5
 # Source: Automated threat intelligence feeds
 # - Feodo Tracker (abuse.ch)
