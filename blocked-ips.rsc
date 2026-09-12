@@ -1,6 +1,6 @@
 # MikroTik RouterOS Blocked IP List
-# Generated: 2026-09-12T10:00:45.557Z
-# Total IPs: 3440
+# Generated: 2026-09-12T10:00:47.538Z
+# Total IPs: 3457
 # Source: Automated threat intelligence feeds
 # - Feodo Tracker (abuse.ch)
 # - Spamhaus DROP
@@ -11,6 +11,11 @@
 /ip firewall address-list remove [find list=BLOCKED]
 
 # Add blocked IPs
+/ip firewall address-list add address=162.243.103.246 list=BLOCKED comment="Auto-blocked 2026-09-12" timeout=24h
+/ip firewall address-list add address=178.62.3.223 list=BLOCKED comment="Auto-blocked 2026-09-12" timeout=24h
+/ip firewall address-list add address=27.133.154.218 list=BLOCKED comment="Auto-blocked 2026-09-12" timeout=24h
+/ip firewall address-list add address=34.204.119.63 list=BLOCKED comment="Auto-blocked 2026-09-12" timeout=24h
+/ip firewall address-list add address=50.16.16.211 list=BLOCKED comment="Auto-blocked 2026-09-12" timeout=24h
 /ip firewall address-list add address=1.10.16.0 list=BLOCKED comment="Auto-blocked 2026-09-12" timeout=24h
 /ip firewall address-list add address=1.10.16.0/20 list=BLOCKED comment="Auto-blocked 2026-09-12" timeout=24h
 /ip firewall address-list add address=1.19.0.0 list=BLOCKED comment="Auto-blocked 2026-09-12" timeout=24h
@@ -273,12 +278,6 @@
 /ip firewall address-list add address=45.41.128.0/22 list=BLOCKED comment="Auto-blocked 2026-09-12" timeout=24h
 /ip firewall address-list add address=45.42.80.0 list=BLOCKED comment="Auto-blocked 2026-09-12" timeout=24h
 /ip firewall address-list add address=45.42.80.0/20 list=BLOCKED comment="Auto-blocked 2026-09-12" timeout=24h
-/ip firewall address-list add address=45.56.192.0 list=BLOCKED comment="Auto-blocked 2026-09-12" timeout=24h
-/ip firewall address-list add address=45.56.192.0/23 list=BLOCKED comment="Auto-blocked 2026-09-12" timeout=24h
-/ip firewall address-list add address=45.56.194.0 list=BLOCKED comment="Auto-blocked 2026-09-12" timeout=24h
-/ip firewall address-list add address=45.56.194.0/24 list=BLOCKED comment="Auto-blocked 2026-09-12" timeout=24h
-/ip firewall address-list add address=45.56.200.0 list=BLOCKED comment="Auto-blocked 2026-09-12" timeout=24h
-/ip firewall address-list add address=45.56.200.0/22 list=BLOCKED comment="Auto-blocked 2026-09-12" timeout=24h
 /ip firewall address-list add address=45.64.52.0 list=BLOCKED comment="Auto-blocked 2026-09-12" timeout=24h
 /ip firewall address-list add address=45.64.52.0/22 list=BLOCKED comment="Auto-blocked 2026-09-12" timeout=24h
 /ip firewall address-list add address=45.64.74.0 list=BLOCKED comment="Auto-blocked 2026-09-12" timeout=24h
@@ -2138,10 +2137,6 @@
 /ip firewall address-list add address=192.101.240.0/21 list=BLOCKED comment="Auto-blocked 2026-09-12" timeout=24h
 /ip firewall address-list add address=192.101.248.0 list=BLOCKED comment="Auto-blocked 2026-09-12" timeout=24h
 /ip firewall address-list add address=192.101.248.0/23 list=BLOCKED comment="Auto-blocked 2026-09-12" timeout=24h
-/ip firewall address-list add address=192.104.73.0 list=BLOCKED comment="Auto-blocked 2026-09-12" timeout=24h
-/ip firewall address-list add address=192.104.73.0/24 list=BLOCKED comment="Auto-blocked 2026-09-12" timeout=24h
-/ip firewall address-list add address=192.108.0.0 list=BLOCKED comment="Auto-blocked 2026-09-12" timeout=24h
-/ip firewall address-list add address=192.108.0.0/24 list=BLOCKED comment="Auto-blocked 2026-09-12" timeout=24h
 /ip firewall address-list add address=192.109.138.0 list=BLOCKED comment="Auto-blocked 2026-09-12" timeout=24h
 /ip firewall address-list add address=192.109.138.0/24 list=BLOCKED comment="Auto-blocked 2026-09-12" timeout=24h
 /ip firewall address-list add address=192.109.200.0 list=BLOCKED comment="Auto-blocked 2026-09-12" timeout=24h
@@ -2286,8 +2281,6 @@
 /ip firewall address-list add address=194.38.22.0/24 list=BLOCKED comment="Auto-blocked 2026-09-12" timeout=24h
 /ip firewall address-list add address=194.41.60.0 list=BLOCKED comment="Auto-blocked 2026-09-12" timeout=24h
 /ip firewall address-list add address=194.41.60.0/23 list=BLOCKED comment="Auto-blocked 2026-09-12" timeout=24h
-/ip firewall address-list add address=194.59.30.0 list=BLOCKED comment="Auto-blocked 2026-09-12" timeout=24h
-/ip firewall address-list add address=194.59.30.0/24 list=BLOCKED comment="Auto-blocked 2026-09-12" timeout=24h
 /ip firewall address-list add address=194.62.244.0 list=BLOCKED comment="Auto-blocked 2026-09-12" timeout=24h
 /ip firewall address-list add address=194.62.244.0/22 list=BLOCKED comment="Auto-blocked 2026-09-12" timeout=24h
 /ip firewall address-list add address=194.85.250.0 list=BLOCKED comment="Auto-blocked 2026-09-12" timeout=24h
@@ -2433,12 +2426,8 @@
 /ip firewall address-list add address=198.133.120.0/24 list=BLOCKED comment="Auto-blocked 2026-09-12" timeout=24h
 /ip firewall address-list add address=198.134.139.0 list=BLOCKED comment="Auto-blocked 2026-09-12" timeout=24h
 /ip firewall address-list add address=198.134.139.0/24 list=BLOCKED comment="Auto-blocked 2026-09-12" timeout=24h
-/ip firewall address-list add address=198.135.205.0 list=BLOCKED comment="Auto-blocked 2026-09-12" timeout=24h
-/ip firewall address-list add address=198.135.205.0/24 list=BLOCKED comment="Auto-blocked 2026-09-12" timeout=24h
 /ip firewall address-list add address=198.135.237.0 list=BLOCKED comment="Auto-blocked 2026-09-12" timeout=24h
 /ip firewall address-list add address=198.135.237.0/24 list=BLOCKED comment="Auto-blocked 2026-09-12" timeout=24h
-/ip firewall address-list add address=198.136.189.0 list=BLOCKED comment="Auto-blocked 2026-09-12" timeout=24h
-/ip firewall address-list add address=198.136.189.0/24 list=BLOCKED comment="Auto-blocked 2026-09-12" timeout=24h
 /ip firewall address-list add address=198.137.160.0 list=BLOCKED comment="Auto-blocked 2026-09-12" timeout=24h
 /ip firewall address-list add address=198.137.160.0/24 list=BLOCKED comment="Auto-blocked 2026-09-12" timeout=24h
 /ip firewall address-list add address=198.140.157.0 list=BLOCKED comment="Auto-blocked 2026-09-12" timeout=24h
@@ -2479,8 +2468,6 @@
 /ip firewall address-list add address=198.177.214.0/24 list=BLOCKED comment="Auto-blocked 2026-09-12" timeout=24h
 /ip firewall address-list add address=198.177.216.0 list=BLOCKED comment="Auto-blocked 2026-09-12" timeout=24h
 /ip firewall address-list add address=198.177.216.0/24 list=BLOCKED comment="Auto-blocked 2026-09-12" timeout=24h
-/ip firewall address-list add address=198.178.193.0 list=BLOCKED comment="Auto-blocked 2026-09-12" timeout=24h
-/ip firewall address-list add address=198.178.193.0/24 list=BLOCKED comment="Auto-blocked 2026-09-12" timeout=24h
 /ip firewall address-list add address=198.179.22.0 list=BLOCKED comment="Auto-blocked 2026-09-12" timeout=24h
 /ip firewall address-list add address=198.179.22.0/24 list=BLOCKED comment="Auto-blocked 2026-09-12" timeout=24h
 /ip firewall address-list add address=198.180.189.0 list=BLOCKED comment="Auto-blocked 2026-09-12" timeout=24h
@@ -2681,8 +2668,6 @@
 /ip firewall address-list add address=199.184.82.0/24 list=BLOCKED comment="Auto-blocked 2026-09-12" timeout=24h
 /ip firewall address-list add address=199.184.223.0 list=BLOCKED comment="Auto-blocked 2026-09-12" timeout=24h
 /ip firewall address-list add address=199.184.223.0/24 list=BLOCKED comment="Auto-blocked 2026-09-12" timeout=24h
-/ip firewall address-list add address=199.184.248.0 list=BLOCKED comment="Auto-blocked 2026-09-12" timeout=24h
-/ip firewall address-list add address=199.184.248.0/24 list=BLOCKED comment="Auto-blocked 2026-09-12" timeout=24h
 /ip firewall address-list add address=199.185.144.0 list=BLOCKED comment="Auto-blocked 2026-09-12" timeout=24h
 /ip firewall address-list add address=199.185.144.0/20 list=BLOCKED comment="Auto-blocked 2026-09-12" timeout=24h
 /ip firewall address-list add address=199.186.26.0 list=BLOCKED comment="Auto-blocked 2026-09-12" timeout=24h
@@ -2853,10 +2838,6 @@
 /ip firewall address-list add address=204.27.218.0/24 list=BLOCKED comment="Auto-blocked 2026-09-12" timeout=24h
 /ip firewall address-list add address=204.29.212.0 list=BLOCKED comment="Auto-blocked 2026-09-12" timeout=24h
 /ip firewall address-list add address=204.29.212.0/24 list=BLOCKED comment="Auto-blocked 2026-09-12" timeout=24h
-/ip firewall address-list add address=204.29.220.0 list=BLOCKED comment="Auto-blocked 2026-09-12" timeout=24h
-/ip firewall address-list add address=204.29.220.0/22 list=BLOCKED comment="Auto-blocked 2026-09-12" timeout=24h
-/ip firewall address-list add address=204.29.224.0 list=BLOCKED comment="Auto-blocked 2026-09-12" timeout=24h
-/ip firewall address-list add address=204.29.224.0/24 list=BLOCKED comment="Auto-blocked 2026-09-12" timeout=24h
 /ip firewall address-list add address=204.44.32.0 list=BLOCKED comment="Auto-blocked 2026-09-12" timeout=24h
 /ip firewall address-list add address=204.44.32.0/20 list=BLOCKED comment="Auto-blocked 2026-09-12" timeout=24h
 /ip firewall address-list add address=204.44.208.0 list=BLOCKED comment="Auto-blocked 2026-09-12" timeout=24h
@@ -3451,6 +3432,42 @@
 /ip firewall address-list add address=223.169.0.0/16 list=BLOCKED comment="Auto-blocked 2026-09-12" timeout=24h
 /ip firewall address-list add address=223.254.0.0 list=BLOCKED comment="Auto-blocked 2026-09-12" timeout=24h
 /ip firewall address-list add address=223.254.0.0/16 list=BLOCKED comment="Auto-blocked 2026-09-12" timeout=24h
+/ip firewall address-list add address=45.33.41.0 list=BLOCKED comment="Auto-blocked 2026-09-12" timeout=24h
+/ip firewall address-list add address=45.33.41.0/24 list=BLOCKED comment="Auto-blocked 2026-09-12" timeout=24h
+/ip firewall address-list add address=156.225.1.0 list=BLOCKED comment="Auto-blocked 2026-09-12" timeout=24h
+/ip firewall address-list add address=156.225.1.0/24 list=BLOCKED comment="Auto-blocked 2026-09-12" timeout=24h
+/ip firewall address-list add address=198.235.24.0 list=BLOCKED comment="Auto-blocked 2026-09-12" timeout=24h
+/ip firewall address-list add address=198.235.24.0/24 list=BLOCKED comment="Auto-blocked 2026-09-12" timeout=24h
+/ip firewall address-list add address=85.217.140.0 list=BLOCKED comment="Auto-blocked 2026-09-12" timeout=24h
+/ip firewall address-list add address=85.217.140.0/24 list=BLOCKED comment="Auto-blocked 2026-09-12" timeout=24h
+/ip firewall address-list add address=147.185.132.0 list=BLOCKED comment="Auto-blocked 2026-09-12" timeout=24h
+/ip firewall address-list add address=147.185.132.0/24 list=BLOCKED comment="Auto-blocked 2026-09-12" timeout=24h
+/ip firewall address-list add address=64.62.197.0 list=BLOCKED comment="Auto-blocked 2026-09-12" timeout=24h
+/ip firewall address-list add address=64.62.197.0/24 list=BLOCKED comment="Auto-blocked 2026-09-12" timeout=24h
+/ip firewall address-list add address=66.132.186.0 list=BLOCKED comment="Auto-blocked 2026-09-12" timeout=24h
+/ip firewall address-list add address=66.132.186.0/24 list=BLOCKED comment="Auto-blocked 2026-09-12" timeout=24h
+/ip firewall address-list add address=45.156.128.0 list=BLOCKED comment="Auto-blocked 2026-09-12" timeout=24h
+/ip firewall address-list add address=45.156.128.0/24 list=BLOCKED comment="Auto-blocked 2026-09-12" timeout=24h
+/ip firewall address-list add address=199.45.154.0 list=BLOCKED comment="Auto-blocked 2026-09-12" timeout=24h
+/ip firewall address-list add address=199.45.154.0/24 list=BLOCKED comment="Auto-blocked 2026-09-12" timeout=24h
+/ip firewall address-list add address=65.49.1.0 list=BLOCKED comment="Auto-blocked 2026-09-12" timeout=24h
+/ip firewall address-list add address=65.49.1.0/24 list=BLOCKED comment="Auto-blocked 2026-09-12" timeout=24h
+/ip firewall address-list add address=85.217.149.0 list=BLOCKED comment="Auto-blocked 2026-09-12" timeout=24h
+/ip firewall address-list add address=85.217.149.0/24 list=BLOCKED comment="Auto-blocked 2026-09-12" timeout=24h
+/ip firewall address-list add address=205.210.31.0 list=BLOCKED comment="Auto-blocked 2026-09-12" timeout=24h
+/ip firewall address-list add address=205.210.31.0/24 list=BLOCKED comment="Auto-blocked 2026-09-12" timeout=24h
+/ip firewall address-list add address=193.163.125.0 list=BLOCKED comment="Auto-blocked 2026-09-12" timeout=24h
+/ip firewall address-list add address=193.163.125.0/24 list=BLOCKED comment="Auto-blocked 2026-09-12" timeout=24h
+/ip firewall address-list add address=216.180.246.0 list=BLOCKED comment="Auto-blocked 2026-09-12" timeout=24h
+/ip firewall address-list add address=216.180.246.0/24 list=BLOCKED comment="Auto-blocked 2026-09-12" timeout=24h
+/ip firewall address-list add address=66.132.172.0 list=BLOCKED comment="Auto-blocked 2026-09-12" timeout=24h
+/ip firewall address-list add address=66.132.172.0/24 list=BLOCKED comment="Auto-blocked 2026-09-12" timeout=24h
+/ip firewall address-list add address=167.94.146.0 list=BLOCKED comment="Auto-blocked 2026-09-12" timeout=24h
+/ip firewall address-list add address=167.94.146.0/24 list=BLOCKED comment="Auto-blocked 2026-09-12" timeout=24h
+/ip firewall address-list add address=185.226.197.0 list=BLOCKED comment="Auto-blocked 2026-09-12" timeout=24h
+/ip firewall address-list add address=185.226.197.0/24 list=BLOCKED comment="Auto-blocked 2026-09-12" timeout=24h
+/ip firewall address-list add address=66.132.195.0 list=BLOCKED comment="Auto-blocked 2026-09-12" timeout=24h
+/ip firewall address-list add address=66.132.195.0/24 list=BLOCKED comment="Auto-blocked 2026-09-12" timeout=24h
 
 # End of script
 # To apply: /import file-name=blocked-ips.rsc
